@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-15T15:37:30 IST" name="Suite" finished-at="2025-02-15T15:39:06 IST" duration-ms="96000">
+    <groups>
+    </groups>
+    <test started-at="2025-02-15T15:37:30 IST" name="ChromeTest" finished-at="2025-02-15T15:39:06 IST" duration-ms="96000">
+      <class name="tests.Login_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Login_Test@6572421]" started-at="2025-02-15T15:37:31 IST" name="setup" finished-at="2025-02-15T15:37:35 IST" duration-ms="4312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_tests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Login_Test@6572421]" started-at="2025-02-15T15:37:35 IST" name="login_tests" data-provider="loginData" finished-at="2025-02-15T15:37:37 IST" duration-ms="1674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify_valid_login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sku@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sku1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.Login_Test@6572421]" started-at="2025-02-15T15:37:37 IST" name="tear_down" finished-at="2025-02-15T15:37:38 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Login_Test@6572421]" started-at="2025-02-15T15:37:38 IST" name="setup" finished-at="2025-02-15T15:37:41 IST" duration-ms="3770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_tests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Login_Test@6572421]" started-at="2025-02-15T15:37:41 IST" name="login_tests" data-provider="loginData" finished-at="2025-02-15T15:37:43 IST" duration-ms="1537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify_invalid_login: password blank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sku@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.Login_Test@6572421]" started-at="2025-02-15T15:37:43 IST" name="tear_down" finished-at="2025-02-15T15:37:43 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Login_Test@6572421]" started-at="2025-02-15T15:37:43 IST" name="setup" finished-at="2025-02-15T15:37:47 IST" duration-ms="3865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_tests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Login_Test@6572421]" started-at="2025-02-15T15:37:47 IST" name="login_tests" data-provider="loginData" finished-at="2025-02-15T15:37:49 IST" duration-ms="1503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify_invalid_login: email blank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sku1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.Login_Test@6572421]" started-at="2025-02-15T15:37:49 IST" name="tear_down" finished-at="2025-02-15T15:37:49 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- tests.Login_Test -->
+      <class name="tests.EmailFriend_Tests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.EmailFriend_Tests@74f0ea28]" started-at="2025-02-15T15:38:27 IST" name="setup" finished-at="2025-02-15T15:38:31 IST" duration-ms="3798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="email_friend_tests(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.EmailFriend_Tests@74f0ea28]" started-at="2025-02-15T15:38:31 IST" name="email_friend_tests" data-provider="itemsData" finished-at="2025-02-15T15:38:39 IST" duration-ms="7897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Valid_emailing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Black & White Diamond Heart]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[frnd@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Valid email testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email_friend_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.EmailFriend_Tests@74f0ea28]" started-at="2025-02-15T15:38:39 IST" name="tear_down" finished-at="2025-02-15T15:38:39 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.EmailFriend_Tests@74f0ea28]" started-at="2025-02-15T15:38:39 IST" name="setup" finished-at="2025-02-15T15:38:44 IST" duration-ms="4446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="email_friend_tests(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.EmailFriend_Tests@74f0ea28]" started-at="2025-02-15T15:38:44 IST" name="email_friend_tests" data-provider="itemsData" finished-at="2025-02-15T15:38:52 IST" duration-ms="7997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid_emailing: friend and user email same]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[14.1-inch Laptop]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sku@mail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid email testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email_friend_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.EmailFriend_Tests@74f0ea28]" started-at="2025-02-15T15:38:52 IST" name="tear_down" finished-at="2025-02-15T15:38:52 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.EmailFriend_Tests@74f0ea28]" started-at="2025-02-15T15:38:52 IST" name="setup" finished-at="2025-02-15T15:38:54 IST" duration-ms="2287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="email_friend_tests(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.EmailFriend_Tests@74f0ea28]" started-at="2025-02-15T15:38:54 IST" name="email_friend_tests" data-provider="itemsData" finished-at="2025-02-15T15:39:04 IST" duration-ms="10040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid_emailing: invalid friend email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smartphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[t]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid email testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email_friend_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.EmailFriend_Tests@74f0ea28]" started-at="2025-02-15T15:39:05 IST" name="tear_down" finished-at="2025-02-15T15:39:06 IST" duration-ms="1821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- tests.EmailFriend_Tests -->
+      <class name="tests.ItemPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:37:49 IST" name="setup" finished-at="2025-02-15T15:37:53 IST" duration-ms="3729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="item_details_visibility_tests(java.lang.String,java.lang.String)[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:37:53 IST" name="item_details_visibility_tests" data-provider="itemsData" finished-at="2025-02-15T15:37:57 IST" duration-ms="3822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify_item_details_are_visible]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Black & White Diamond Heart]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- item_details_visibility_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:37:57 IST" name="tear_down" finished-at="2025-02-15T15:37:57 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:37:57 IST" name="setup" finished-at="2025-02-15T15:38:01 IST" duration-ms="3785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="item_details_visibility_tests(java.lang.String,java.lang.String)[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:01 IST" name="item_details_visibility_tests" data-provider="itemsData" finished-at="2025-02-15T15:38:04 IST" duration-ms="3487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify_item_details_are_visible]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smartphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- item_details_visibility_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:05 IST" name="tear_down" finished-at="2025-02-15T15:38:05 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:05 IST" name="setup" finished-at="2025-02-15T15:38:09 IST" duration-ms="3933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="item_page_navigation_tests(java.lang.String,java.lang.String)[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:09 IST" name="item_page_navigation_tests" data-provider="itemsData" finished-at="2025-02-15T15:38:12 IST" duration-ms="3422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify_navigation_to_Item_page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Black & White Diamond Heart]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- item_page_navigation_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:12 IST" name="tear_down" finished-at="2025-02-15T15:38:13 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:13 IST" name="setup" finished-at="2025-02-15T15:38:16 IST" duration-ms="3629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="item_page_navigation_tests(java.lang.String,java.lang.String)[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:16 IST" name="item_page_navigation_tests" data-provider="itemsData" finished-at="2025-02-15T15:38:19 IST" duration-ms="3271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify_navigation_to_Item_page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[14.1-inch Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- item_page_navigation_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:20 IST" name="tear_down" finished-at="2025-02-15T15:38:20 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:20 IST" name="setup" finished-at="2025-02-15T15:38:23 IST" duration-ms="3591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="item_page_navigation_tests(java.lang.String,java.lang.String)[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:23 IST" name="item_page_navigation_tests" data-provider="itemsData" finished-at="2025-02-15T15:38:27 IST" duration-ms="3152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify_navigation_to_Item_page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smartphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- item_page_navigation_tests -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:tests.ItemPageTests@1283bb96]" started-at="2025-02-15T15:38:27 IST" name="tear_down" finished-at="2025-02-15T15:38:27 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- tests.ItemPageTests -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
